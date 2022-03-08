@@ -18,18 +18,18 @@ In the notebook, the questions are analysed step-by-step to arrive at data-drive
 ### Summary of Findings - Data exploration:
 1. Features such as energy, year and valence has high variability <br />
 2. Features such as liveness, danceability, tempo and loudness has relatively lower variablility and concentrated in some ranges. <br />
-(distributions.PNG "Distribution of the features")
+![alt text] (distributions.png "Distribution of the features")
 ### Correlation
 1. danceability and valence has high correlation <br />
 2. loudness has high correlation with energy <br />
 3. accousticness has negative correlation with energy, loudness, popularity and year <br />
 4. popularity is highly positively correlated with year. Also loudness and energy seem to have strong correlation with popularity <br />
 
-![alt text](corr.PNG "Correlation Matrix")
+![alt text](corr.png "Correlation Matrix")
 ### Prediction
 1. The deep learning model performance is very close to RF model performance.
 2. The deep learning model shows no / only minor improvement (interms of validation data) after about 100 epochs. In this particular problem, the RF model can be the better option since it is computationaly less expensive and less prone to overfitting than the deep learing approach.
-![alt text](dl.PNG "Training and validation metrics for the deep learning model")
+![alt text](dl.png "Training and validation metrics for the deep learning model")
 
 ### Acknowledgement
 &nbsp;&nbsp; [1]. Spotify web API documentation, link [here](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track). <br />
