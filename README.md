@@ -18,7 +18,8 @@ In the notebook, the questions are analysed step-by-step to arrive at data-drive
 ### Summary of Findings - Data exploration:
 1. Features such as energy, year and valence has high variability <br />
 2. Features such as liveness, danceability, tempo and loudness has relatively lower variablility and concentrated in some ranges. <br />
-![alt text] (distributions.png "Distribution of the features")
+
+![alt text](distributions.png "Distribution of the features")
 ### Correlation
 1. danceability and valence has high correlation <br />
 2. loudness has high correlation with energy <br />
