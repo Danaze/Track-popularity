@@ -35,4 +35,4 @@ In the notebook, the questions are analysed step-by-step to arrive at data-drive
 ### Acknowledgement
 &nbsp;&nbsp; [1]. Spotify web API documentation, link [here](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track). <br />
 &nbsp;&nbsp; [2]. Kaggle data set, link [here](https://www.kaggle.com/ektanegi/spotifydata-19212020). <br />
-### Medium blog post summarizing the results is available [here]()
+### Medium blog post summarizing the results is available [here](https://medium.com/@daazene/spotify-predicting-popularity-of-a-track-44c8da3daa34)
